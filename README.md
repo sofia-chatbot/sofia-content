@@ -1,10 +1,10 @@
 # Sofia Chatbot Repository
 
-Welcome to the Sofia Chatbot repository. Here, you'll find all the necessary files and instructions to deploy and run the Sofia Chatbot.
+Welcome to the Sofia Chatbot repository. Sofia is a chatbot that provides information about situations of digital gender violence in Chile. Also resources and tools for your digital self-care. You can find this project deployed and live in production at [Sofia Chat](https://sofiachat.cl/).
 
-Sofia is a chatbot that provides information about situations of digital gender violence in Chile. Also resources and tools for your digital self-care. You can find this project deployed and live in production at [Sofia Chat](https://sofiachat.cl/).
+Here, you'll find all the necessary files and instructions to deploy and run the Sofia Chatbot.
 
-This repository consists of two main directories: "web" and "chat".
+Please, be aware that in order to run this project you should have basic understanding and skills in Python, Dialogflow, Postgres, and Docker.
 
 ## Directory Struture
 
@@ -53,4 +53,4 @@ If you don't have access to a PostgreSQL database, you can disable the `PRODUCTI
 
 ## Contribute
 
-Feel free to submit issues or open pull requests to improve this project. Happy coding!
+Feel free to submit issues or open pull requests to improve this project. 
