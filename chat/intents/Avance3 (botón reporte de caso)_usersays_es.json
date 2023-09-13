@@ -1,0 +1,51 @@
+[
+  {
+    "id": "80af57c8-f6ab-44dd-8386-0fdb31eaf578",
+    "data": [
+      {
+        "text": "Quiero reportar mi caso de violencia digital",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "30e8209e-fd70-4049-b3b9-5f2db7c1a9e3",
+    "data": [
+      {
+        "text": "Necesito reportar ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " caso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2d476a95-bb48-4c01-a55c-cd78e4d7df25",
+    "data": [
+      {
+        "text": "Quiero reportar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

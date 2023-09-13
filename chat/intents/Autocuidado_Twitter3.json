@@ -1,0 +1,39 @@
+{
+  "id": "b859d82f-ffb3-40ea-b51a-7496ee7df539",
+  "name": "Autocuidado_Twitter3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🔒 Mejora la Seguridad de tu Cuenta en Twitter con la Autenticación en Dos Pasos 🔒\n\n📲 Ve al menú y busca la opción \"Configuración y Soporte\".\n\n⚙️ Luego, selecciona \"Configuración y Privacidad\".\n\n🔐 Selecciona \"Seguridad y acceso a la cuenta\" y luego vuelve a hacer clic en \"Seguridad\".\n\n✌️ Desde esta opción, podrás activar un segundo método de autenticación para mayor seguridad. Esto evitará que el acceso a tu cuenta dependa únicamente de tu correo electrónico o número de teléfono asociado.\n\n💡🔒 La Autenticación en Dos Pasos agrega una capa adicional de protección a tu cuenta de Twitter. Con este método, deberás proporcionar un código único o confirmar tu identidad de otra manera al iniciar sesión en dispositivos nuevos o no reconocidos."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_TW3"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

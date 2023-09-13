@@ -1,0 +1,91 @@
+{
+  "id": "f8607269-819c-4740-a0e3-7c011a545594",
+  "name": "boton_estadoTW",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Lamentablemente, en la actualidad, la plataforma X (anteriormente conocida como Twitter) no ofrece la funcionalidad de revisar el estado de un tweet que hayas reportado. Sin embargo, quiero asegurarte que estoy monitoreando de cerca cualquier actualización relacionada con este tema. En cuanto tengamos novedades al respecto, te informaré lo más pronto posible 🤍"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "event": {
+                    "languageCode": "es",
+                    "parameters": {},
+                    "name": "boton_menu"
+                  },
+                  "type": "button",
+                  "text": "Ir al menú 🏠"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "languageCode": "es",
+                    "name": "boton_terminar",
+                    "parameters": {}
+                  },
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "text": "Terminar 👋",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_estadoTW"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

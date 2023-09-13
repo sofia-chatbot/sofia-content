@@ -1,0 +1,104 @@
+{
+  "id": "c1a1fc5e-bf0e-45d2-83e2-6c8c8df6febc",
+  "name": "respuestaFinFormulario",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🌟Recuerda que es de vital importancia Hacer un registro del ataque o acoso: toma un pantallazo / captura de pantalla con tu móvil al mensaje o contenido que te han enviado. Esto sirve como evidencia para la denuncia/ reporte que puedas hacer en la plataforma de red social donde ocurrió la situación, y también en caso de que decidas denunciar a la policía PDI.\n📅⏰Registra la fecha y hora en que fueron enviados/ recibidos los mensajes de acoso. Esta información será útil para respaldar tu caso y tomar las medidas necesarias.\n📌Anota el nombre y la dirección URL del perfil o cuenta que te acosa. Ejemplo en Twitter o Instagram: @cuentaX o en Facebook: www.facebook.com/cuentaX. Además, te recomiendo realizar una captura de pantalla del detalle del perfil o cuenta que te está acosando. Todo esto sirve de registro para tu caso."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Ahora, cuéntame, qué quieres hacer 👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "event": {
+                    "languageCode": "es",
+                    "name": "boton_menu",
+                    "parameters": {}
+                  },
+                  "text": "Ir al menú 🏠",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "text": "Terminar 👋",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "chevron_right"
+                  },
+                  "event": {
+                    "parameters": {},
+                    "name": "boton_terminar",
+                    "languageCode": "es"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_atacante1"
+    },
+    {
+      "name": "boton_atacante2"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

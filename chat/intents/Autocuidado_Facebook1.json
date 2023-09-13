@@ -1,0 +1,39 @@
+{
+  "id": "ca3bc820-7541-41c6-afa2-c1f0cc62fd00",
+  "name": "Autocuidado_Facebook1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🔒🔐 Revisa y Cambia la \"Privacidad\" de tu Cuenta 🔐🔒\n\nQuiero que te sientas segura y protegida mientras usas Facebook. Es por eso que te recomiendo que revises y ajustes la configuración de privacidad de tu cuenta. \n\nAquí te dejo unos pasos sencillos para configurar tu privacidad:\n\n👉 Dirígete al menú de la aplicación o accede a través de la web y busca el ícono con forma de candado. Desde ahí podrás configurar la privacidad de tu cuenta. Decide quién puede leer tus publicaciones, encontrarte y enviar mensajes directos a través de Messenger.\n\n👥 Es importante que revises a todas las personas que has aceptado como amigas/amigos. Si encuentras algún perfil que no conoces o con el que no interactúas, considera eliminarlo de tu lista de amigos para mantener mayor control sobre tu círculo de conexiones.\n\n🌐 Recuerda que puedes elegir quiénes pueden ver tus publicaciones. Puedes configurarlo como público (para cualquier persona, incluso las que no están en Facebook), solo para aquellas personas que etiquetes como \"amigas/os\" o personalizarlo para un grupo específico.\n\nℹ️ Te recomendamos que explores las secciones \"Tu Perfil\" y \"Tu Privacidad\" en las guías de Facebook. Allí encontrarás indicaciones y herramientas adicionales para proteger aún más tu información personal.\n\n✨ Tu seguridad y bienestar digital son fundamentales. Configurar adecuadamente tu privacidad te permitirá disfrutar de una experiencia más positiva en la plataforma y proteger tus datos de manera efectiva."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_FB1"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

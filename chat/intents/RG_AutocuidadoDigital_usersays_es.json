@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ab06061d-d2b7-4161-8e3b-2a925cfa6d8f",
+    "data": [
+      {
+        "text": "consejos de autocuidado digital",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "306c99b5-bb3e-4c02-ac11-4ab627cd8680",
+    "data": [
+      {
+        "text": "Dame tips de ",
+        "userDefined": false
+      },
+      {
+        "text": "seguridad",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " en RRSS",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "37367326-e9f0-48d9-8b4f-46c7d129799f",
+    "data": [
+      {
+        "text": "Dame consejos de ",
+        "userDefined": false
+      },
+      {
+        "text": "seguridad",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " en redes sociales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "66da1c02-5621-4053-b14c-de577fa664f7",
+    "data": [
+      {
+        "text": "Me puedes entregar ideas de autocuidado digital",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

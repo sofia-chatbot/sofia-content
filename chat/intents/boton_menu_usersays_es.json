@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1e1cbd32-e4ef-4071-b685-552a899efaa7",
+    "data": [
+      {
+        "text": "Me atacaron en Facebook",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6a24348c-ec32-49f3-88e6-584446f794b7",
+    "data": [
+      {
+        "text": "Ayúdenme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "38a13ad8-bbf4-4365-8f76-70304cd6f5d0",
+    "data": [
+      {
+        "text": "Necesito ayuda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c16fda9b-f586-4698-8e6a-0b906c24fd1b",
+    "data": [
+      {
+        "text": "Quiero ir al home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c8752bf3-0bfa-48f6-83f2-5a261987df8a",
+    "data": [
+      {
+        "text": "volver al menú",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6f6479f0-4d33-4ce9-bfd1-3e455d06f45a",
+    "data": [
+      {
+        "text": "quiero ver otras opciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

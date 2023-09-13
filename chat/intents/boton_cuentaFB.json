@@ -1,0 +1,56 @@
+{
+  "id": "b94dd42f-c1f3-4140-9241-032bbdad8161",
+  "name": "boton_cuentaFB",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¿Estás siendo objeto de ataques en tu cuenta de Facebook? ¡No te preocupes! Aquí te enseñaremos todo lo que necesitas saber para reportar de manera efectiva el perfil que te está afectando con este video tutorial 🎬 👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "youtube",
+                  "rawUrl": "https://www.youtube.com/watch?v\u003dKyy9YS2pHIA"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_cuentaFB"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

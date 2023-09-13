@@ -1,0 +1,65 @@
+{
+  "id": "253e1272-2da8-4685-b10e-6076128b1501",
+  "name": "Avance1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🚫💻 Entendemos que la violencia digital puede ser devastadora, pero denunciar los casos es fundamental para impulsar cambios significativos en las políticas públicas de Chile. 📣👩‍⚖️ Tu voz importa y puede marcar la diferencia. Al reportar tu caso, estás contribuyendo a que podamos tener leyes y políticas públicas que protejan a las mujeres en los espacios digitales."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "¡Claro, estoy de acuerdo!",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "event": {
+                    "languageCode": "es",
+                    "name": "boton_Avance2",
+                    "parameters": {}
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_Avance1"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

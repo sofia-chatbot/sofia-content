@@ -1,0 +1,66 @@
+{
+  "id": "ea19936d-9d49-453e-a9f9-8f8c3ebbddc8",
+  "name": "boton_publicacionIG",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Hola! ¿Has encontrado un post en Instagram que consideras inapropiado o que está afectándote? ¡No te preocupes! Estoy aquí para ayudarte a aprender cómo reportarlo de manera efectiva, con este tutorial🎬🤝"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "youtube",
+                  "rawUrl": "https://www.youtube.com/watch?v\u003djGv1r1ZgMpE"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "También te dejo estas recomendaciones para reportar la situación de Violencia Digital de Género, en Instagram 👇\n\n1️⃣: Analiza el contenido\nAntes de reportar un post, asegúrate de entender claramente qué aspecto del contenido consideras que infringe las reglas. Esto podría incluir contenido ofensivo, spam, acoso, violencia o material inapropiado 🚫😡\n\n2️⃣: Accede al post\nDirígete al post en cuestión y busca las opciones de \"...\" ubicadas en la esquina superior derecha. Al seleccionarla, aparecerá un menú con diferentes acciones para el post ✅📱\n\n3️⃣: Selecciona \"Reportar\"\nEntre las opciones del menú, encontrarás la de \"Reportar\". Al hacer clic en ella, Instagram te preguntará el motivo de tu reporte y te ofrecerá categorías para especificar el problema 📝❌\n\n4️⃣: Proporciona detalles\nEs importante que expliques en detalle por qué consideras que el post viola las reglas. Cuanta más información proporciones, mejor será para los revisores de Instagram evaluar la situación 📊🔍\n\n5️⃣: Confirma el reporte\nUna vez hayas completado todos los detalles, confirma tu reporte. Instagram revisará la publicación de acuerdo con sus políticas y tomará las medidas adecuadas si se encuentra que el contenido es inapropiado ✔️👮"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_publicacionIG"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

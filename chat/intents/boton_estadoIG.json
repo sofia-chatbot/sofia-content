@@ -1,0 +1,66 @@
+{
+  "id": "b3dadf9b-14bb-4654-bfbd-2a4debcc8e5e",
+  "name": "boton_estadoIG",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Descubre todo lo que debes saber para conocer el estado de tu denuncia en Instagram 🕵️‍♂️📝, con este video tutorial 🎬👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://www.youtube.com/watch?v\u003dIaHxB-ZMTIM",
+                  "type": "youtube"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "También te dejo estas recomendaciones para reportar la cuenta que te está atacando en Instagram 🤝\nSi ya  reportaste tu caso de VDG en Instagram y te preguntas cómo puedes conocer su estado, estás en el lugar correcto. Aquí te explicaremos todo lo que necesitas saber para estar al tanto de tu denuncia 🔍📲\n\n1️⃣: Verifica la confirmación\nUna vez hayas realizado la denuncia, Instagram suele enviarte una confirmación de que recibieron tu reporte. Revisa tu bandeja de entrada o notificaciones para asegurarte de haber recibido la confirmación ✉️✔️\n\n2️⃣: Accede a tus denuncias\nDirígete a tu perfil de Instagram y haz clic en el ícono de las tres líneas horizontales en la esquina superior derecha. Luego, selecciona la opción \"Configuración\" y busca la sección de \"Ayuda\" o \"Soporte\". Allí deberías encontrar la opción para ver tus denuncias pasadas 📱👉👉🔍\n\n3️⃣: Consulta el estado\nDentro de la sección de denuncias, podrás ver un historial de las denuncias que has presentado. Selecciona la denuncia en cuestión y te proporcionarán información sobre su estado actual. Es posible que encuentres mensajes que indiquen si la denuncia fue recibida, está siendo revisada o si se ha tomado alguna medida al respecto 📋🔄👀\n\n4️⃣: Ten paciencia\nRecuerda que el proceso de revisión puede llevar tiempo, especialmente si hay un gran volumen de denuncias. Instagram se esfuerza por abordar todas las denuncias de manera adecuada, por lo que es importante ser paciente mientras esperas una respuesta ⏳😊\n\n5️⃣: Contacta a Instagram si es necesario\nSi tienes preguntas adicionales o preocupaciones sobre el estado de tu denuncia, puedes contactar directamente al equipo de soporte de Instagram a través de sus canales de ayuda. Ellos estarán encantados de asistirte 📧🆘"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_estadoIG"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

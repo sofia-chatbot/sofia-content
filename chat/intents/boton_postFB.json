@@ -1,0 +1,56 @@
+{
+  "id": "ade0a482-a858-4db0-be59-e41655a914d4",
+  "name": "boton_postFB",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            ": ¡Hola! ¿Has encontrado un post en tu Facebook que consideras inapropiado o que está afectándote? ¡No te preocupes! Estoy aquí para ayudarte a aprender cómo reportarlo de manera efectiva, con este tutorial🎬👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "youtube",
+                  "rawUrl": "https://www.youtube.com/watch?v\u003dGsWzYfkmyps"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_publicacionFB"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
