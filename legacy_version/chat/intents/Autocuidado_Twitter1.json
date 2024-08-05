@@ -1,0 +1,39 @@
+{
+  "id": "0c74e0a4-ff9d-474e-b517-c398e6118002",
+  "name": "Autocuidado_Twitter1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🔒📲 Configura tu Privacidad y Seguridad en Twitter en unos simples pasos 📲🔒\n\n📥 Ve al menú que aparece en tu perfil y haz clic en \"Configuración y Soporte\".\n\n⚙️ Luego, selecciona \"Configuración y Privacidad\".\n\n🔐 Después, anda a \"Privacidad y Seguridad\" y elige \"Audiencias y Etiquetas\".\n\n🛡️ Activa la opción \"Proteger tus Tweets\". Al hacerlo, tu cuenta se volverá privada y aparecerá con un candado. Solo tus seguidores podrán ver y responder a tus publicaciones.\n\n📸 También puedes configurar si deseas que te etiqueten en fotos. Puedes activar o desactivar la opción de etiquetado para tener más control sobre cómo te mencionan en las imágenes de otros usuarios.\n\n💬 Administra los mensajes directos que recibes, incluso de personas o cuentas que no te siguen. Activa la opción \"Permitir solicitudes de mensajes de personas a las que sigues\".\n\n🌐 Además, cuando tuitees algo, puedes seleccionar la opción para que esa publicación en particular sea visible solo para un \"círculo de personas en Twitter\" que tú elijas de entre tus seguidores.\n\n💡🔒 Configurar estas opciones de privacidad y seguridad te brindará una experiencia más protegida en Twitter. Podrás compartir contenido solo con las personas que desees y controlar quiénes pueden interactuar contigo."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_TW1"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

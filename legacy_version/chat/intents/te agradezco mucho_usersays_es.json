@@ -1,0 +1,95 @@
+[
+  {
+    "id": "bcdeeb2a-ccaa-4a34-a119-b2f71b16e7bc",
+    "data": [
+      {
+        "text": "Chau, gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dd80927a-8069-4487-9743-e92a479f6fda",
+    "data": [
+      {
+        "text": "Eso es todo, gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "adfe0b50-094d-4142-9dca-985c3b750947",
+    "data": [
+      {
+        "text": "Terminar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "945fe21c-9469-47ec-ab2c-0c74e1ad0dec",
+    "data": [
+      {
+        "text": "te agradezco mucho",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "72cb95d9-4bef-4a96-8174-08bc282c34d1",
+    "data": [
+      {
+        "text": "te agradezco",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c82d7184-87a8-455f-b5fd-3265e0e1cdf1",
+    "data": [
+      {
+        "text": "gracias",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f9efeb10-abdf-407b-af73-585e71adf944",
+    "data": [
+      {
+        "text": "Muchas gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

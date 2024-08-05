@@ -1,0 +1,94 @@
+{
+  "id": "131a29bb-15d7-44fa-bffa-fb64e577bf54",
+  "name": "boton_feedback_reporte",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Muchas gracias por realizar tu reporte! La valentía que demuestras al enfrentar esta situación de violencia digital de género es admirable 💪💜. Recuerda, que estoy aquí para apoyarte y brindarte el mejor asesoramiento posible, cuéntame cómo te gustaría continuar 👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "event": {
+                    "name": "boton_menu",
+                    "languageCode": "es",
+                    "parameters": {}
+                  },
+                  "text": "Ir al menú 🏠",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "chevron_right"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Terminar 👋",
+                  "event": {
+                    "parameters": {},
+                    "name": "boton_terminar",
+                    "languageCode": "es"
+                  },
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_atacante1"
+    },
+    {
+      "name": "boton_atacante2"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

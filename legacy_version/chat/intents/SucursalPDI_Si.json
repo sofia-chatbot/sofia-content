@@ -1,0 +1,103 @@
+{
+  "id": "2427c8d4-79e6-47fb-95e8-855af8af72ab",
+  "name": "SucursalPDI_Si",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Excelente! En tu ciudad, tienes acceso a una brigada especializada en cibercrimen, donde puedes presentar tu denuncia junto con la evidencia necesaria.\n📌Para facilitar el proceso, recuerda  recopilar los siguientes elementos:\n 📸Capturas de pantalla: Asegúrate de tomar capturas de pantalla de la cuenta del atacante y de los mensajes o publicaciones ofensivas. Estas imágenes servirán como pruebas y respaldo de tu denuncia.\n💬Textos del acoso o amenaza: Guarda los mensajes recibidos, ya sean correos electrónicos, mensajes directos o publicaciones en redes sociales. Esto ayudará a demostrar la naturaleza del abuso que has experimentado.\n🔍Información relevante: Si tienes algún otro tipo de evidencia, como enlaces a perfiles de redes sociales, nombres de usuarios, fechas y horas específicas, recopílalos también. Toda la información que puedas proporcionar será útil para respaldar tu caso 👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "También te recomendamos hacer la denuncia online a través de Fiscalía online. Es un proceso conveniente que te permite completar un formulario y enviarlo por correo electrónico a alguna de las Fiscalías Regionales 👇"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "text": "Brigada Cibercrimen",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "link": "http://www.pdichile.cl/instituci%C3%B3n/unidades/cibercrimen",
+                  "event": {
+                    "languageCode": "",
+                    "name": "",
+                    "parameters": {}
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "link": "http://www.fiscaliadechile.cl/Fiscalia/quienes/formularios.jsp",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": ""
+                  },
+                  "text": "Fiscalía Online",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_sucursal1"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

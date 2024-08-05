@@ -1,0 +1,83 @@
+{
+  "id": "14285d12-5a85-4e2d-b4a2-83f177f2224a",
+  "name": "RespuestaDenunciaPDI",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3550685e-1933-493f-86e3-7f34f16a1efd",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Debo recordarte que, en Chile, lamentablemente la violencia digital de género, el acoso y el hostigamiento digital no son considerados delitos tipificados para constituir una causa judicial en la actualidad. Sin embargo, es importante destacar que existe un proyecto de ley en trámite que busca sancionar estas situaciones.\nEsto no implica que no puedas realizar una denuncia formal, especialmente si la situación es recurrente y constituye amenazas físicas o psicológicas hacia tu persona, familia o círculo más cercano.\nLo más importante es tu bienestar y seguridad 💜"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Sí, démosle",
+                  "type": "button",
+                  "event": {
+                    "parameters": {},
+                    "name": "boton_PDI",
+                    "languageCode": "es"
+                  },
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_denunciaPDI"
+    },
+    {
+      "name": "boton_reporte_PDI"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

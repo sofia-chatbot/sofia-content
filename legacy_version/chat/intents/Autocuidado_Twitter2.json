@@ -1,0 +1,39 @@
+{
+  "id": "0211dbf5-5933-4014-9926-bc51cc854b5f",
+  "name": "Autocuidado_Twitter2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🔑✖ Cómo Cambiar tu Contraseña en Twitter en unos sencillos pasos✖ 🔑\n\n📲 Ve al menú y busca la opción \"Configuración y Soporte\".\n\n⚙️ Luego, selecciona \"Configuración y Privacidad\".\n\n🔒 A continuación, dirígete a \"Tu Cuenta\" y haz clic en \"Cambiar Contraseña\".\n\n🔄 Sigue las indicaciones para crear una nueva contraseña segura. Asegúrate de usar una combinación de letras, números y símbolos para mayor seguridad.\n\n💡🔑 Cambiar periódicamente tu contraseña es fundamental para proteger tu cuenta de posibles accesos no autorizados. Con estos sencillos pasos, mantendrás tu cuenta de Twitter segura y tus datos protegidos."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_TW2"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

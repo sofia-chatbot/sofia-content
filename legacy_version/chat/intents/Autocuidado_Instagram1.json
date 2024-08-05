@@ -1,0 +1,39 @@
+{
+  "id": "34a2996b-83cf-43a8-aebe-8ab62e2dfb56",
+  "name": "Autocuidado_Instagram1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🔒👉 Pasos para Configurar tu Cuenta de Instagram en Modo Privado 👈🔒\n\n📲 Abre la aplicación y dirígete al menú principal.\n\n⚙️ Desde allí, accede a \"Configuración y Privacidad\" ubicado en el menú lateral que encontrarás en tu perfil dentro de la aplicación de la red social.\n\n🔒 Una vez dentro, selecciona la sección de \"Seguridad\" (es la tercera opción).\n\n👀 Haz clic en \"Quién puede ver tu contenido\".\n\n🛡️ En la sección de \"Privacidad de la cuenta\", marca la casilla junto a \"Cuenta privada\". Confirma la acción tocando \"Cambiar a modo privado\".\n\n🗝️ Al hacerlo, tu cuenta aparecerá con un candado, lo que indica que ahora está en modo privado.\n\nCuando cambias tu cuenta o perfil a modo privado, solo las personas que ya sigues o que te siguen pueden ver tus publicaciones o enviarte mensajes internos.\n\n💡🔒 Configurar tu cuenta en modo privado te proporciona un mayor control sobre quiénes pueden acceder a tu contenido, lo que te brinda una experiencia más segura y protegida en la plataforma."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_IG1"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

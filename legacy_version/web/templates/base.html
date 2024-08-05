@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block estilos %}
+        <!-- Estilos CSS que se repiten en todas las páginas -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="{{ url_for('static', filename='css/estilos.css') }}" rel="stylesheet">
+    {% endblock %}
+    <title>{% block titulo %}{% endblock %}</title>
+</head>
+<body class="d-flex flex-column h-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="/">
+                    <!-- Aquí puedes poner el código o ruta de tu logo -->
+                    <img src="static/img/logo.svg" alt="logo sofIA"/>
+                </a>
+    
+                <!-- Botón del menú responsivo -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Enlaces del menú -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about">¿Qué es SofIA?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips">Autocuidado Digital</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- Hotjar Tracking Code for https://sofiachat.cl/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:3622200,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    </header>
+    
+    <main>
+        {% block contenido %}
+            <!-- Contenido específico de cada página va aquí -->
+        {% endblock %}
+        {% block notificacion %}
+        {% if notificacion %}
+        <div id="alerta" class="alert alert-success alert-dismissible fade show position-fixed bottom-0 start-50 translate-middle-x" role="alert">
+            {{ notificacion }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+        </div>
+        {% endif %}
+        {% endblock %}
+
+    </main>
+
+      <!-- Contenido del footer que se repite en todas las páginas --> 
+      <footer class="footer mt-auto py-2 bg-body-tertiary">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+                <img src="static/img/aplus.png">
+            </div>
+            <div class="col">
+                <img src="static/img/fair.png">
+            </div>
+            <div class="col">
+                <img src="static/img/idrc.png">
+            </div>
+            <div class="col">
+                <img src="static/img/odegi.png">
+            </div>
+            <div class="col">
+                <img src="static/img/fdp.png">
+            </div>
+            <div class="col">
+                <img src="static/img/tec.png">
+            </div>
+            <div class="col">
+                <img src="static/img/watt.png">
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    {% block scripts %}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    {% endblock %}
+</body>
+</html>

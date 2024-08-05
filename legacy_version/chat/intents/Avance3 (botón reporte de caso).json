@@ -1,0 +1,83 @@
+{
+  "id": "733fe8ef-670e-4d15-bfbb-db1fa7ff3c91",
+  "name": "Avance3 (botón reporte de caso)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "276ef61c-4652-4c88-b0c8-c0d9d38169ad",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Estoy aquí para escucharte, ofrecerte orientación y ayudarte en el proceso de reportar tu caso de violencia digital de género. Puedes tener la tranquilidad de que, al trabajar juntas, abordaremos esta situación con la seriedad y la confidencialidad que merece.\n👩‍💻💜🔔 ¿Quieres reportar tu caso ahora y hacer que tu voz se escuche?  📢"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "text": "Sí, vamos 🚀",
+                  "event": {
+                    "name": "boton_reporte",
+                    "languageCode": "es",
+                    "parameters": {}
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "boton_Avance3"
+    },
+    {
+      "name": "boton_reporte_caso"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
